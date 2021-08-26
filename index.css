@@ -206,11 +206,19 @@ input:focus {
     display: block;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 /* .form :nth-child(4) {
     margin-bottom: 50px;
 } */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .container {
         padding: 30px;
         flex-direction: column;
@@ -255,11 +263,5 @@ input:focus {
         width: 100%;
         padding: 15px;
     }
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
+    
 }
